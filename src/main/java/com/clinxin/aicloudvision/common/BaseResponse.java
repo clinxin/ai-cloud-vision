@@ -2,16 +2,13 @@ package com.clinxin.aicloudvision.common;
 
 import com.clinxin.aicloudvision.exception.ErrorCode;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.Serializable;
 
 /**
  * @author clinxin
  */
-@Getter
-@Setter
+@Data
 public class BaseResponse<T> implements Serializable {
 
     private int code;
